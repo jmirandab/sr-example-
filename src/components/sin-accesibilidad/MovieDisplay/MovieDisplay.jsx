@@ -47,7 +47,7 @@ const MovieDisplay = ({ appState }) => {
                                         {person.profilePicture ? (
                                             <img 
                                                 src={person.profilePicture} 
-                                                alt={`Foto de ${person.name}`}
+                                                alt={person.altText}
                                                 className={styles.profileImage}
                                             />
                                         ) : (
@@ -57,7 +57,7 @@ const MovieDisplay = ({ appState }) => {
                                     <div className={styles.castInfo}>
                                         <div className={styles.castName}>{person.name}</div>
                                         <div className={styles.castRole}>
-                                            {person.role === 'director' ? t('movie.director') : t('movie.actor')}
+                                            {person.role}
                                         </div>
                                     </div>
                                 </div>
