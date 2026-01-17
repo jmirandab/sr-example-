@@ -35,7 +35,7 @@ const TreeView = ({ onSelectMovie, selectedMovieId: parentSelectedMovieId }) => 
                 }
             });
         }
-    }, [onSelectMovie, parentSelectedMovieId]);
+    }, [onSelectMovie, parentSelectedMovieId, peliculas]);
 
     const toggleGroup = (genre) => {
         setExpandedGroups(prev => ({

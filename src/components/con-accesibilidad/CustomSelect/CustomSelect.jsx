@@ -62,6 +62,8 @@ const CustomSelect = ({ options, selectedValue, onChange, hasError }) => {
                     setActiveIndex(getSelectedIndex() >= 0 ? getSelectedIndex() : 0);
                 }
                 break;
+            default:
+                break;
         }
     };
 
