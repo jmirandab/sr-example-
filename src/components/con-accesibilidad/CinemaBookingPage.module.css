@@ -1,0 +1,177 @@
+/* Estilos específicos para la versión con accesibilidad */
+
+/* Estilos de focus mejorados */
+.conAccesibilidad *:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}
+
+/* Estilos específicos para elementos de formulario */
+.conAccesibilidad input:focus, 
+.conAccesibilidad select:focus, 
+.conAccesibilidad textarea:focus, 
+.conAccesibilidad button:focus,
+.conAccesibilidad [role="button"]:focus,
+.conAccesibilidad [tabindex]:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}
+
+/* Variables CSS para fácil manipulación de colores */
+.conAccesibilidad {
+    --background-color: #ffffff;
+    --text-color: #494949;
+    --primary-color: #0356B0;
+    --error-color: #E04D5D;
+    --error-background: #FFD6D6;
+    --border-color: #dddddd;
+    --hover-color: #f8f9fa;
+    --sidebar-background: #f8f9fa;
+    --banner-background: #343a40;
+    --banner-text: #ffffff;
+}
+
+/* Banner */
+.banner {
+    background-color: var(--banner-background);
+    z-index: 3;
+    color: var(--banner-text);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.hamburgerMenu {
+    background: none;
+    border: none;
+    color: var(--banner-text);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.hamburgerMenu:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bannerTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.languageSelectorWrapper {
+    margin-left: auto;
+    color: var(--banner-text);
+}
+
+/* Container */
+.container {
+    display: flex;
+    margin-top: 60px;
+    min-height: calc(100vh - 60px);
+}
+
+/* Main Content */
+.mainContent {
+    flex: 1;
+    margin-left: 300px;
+    padding: 2rem;
+    transition: margin-left 0.3s ease;
+}
+
+.mainContent.expanded {
+    margin-left: 0;
+}
+
+.pageTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.columnsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.columnsContainer > * {
+    flex: 1 1 0;
+    max-width: 55em;
+    min-width: fit-content;
+}
+
+/* Fallback to vertical layout when space is insufficient */
+@media (max-width: 1200px) {
+    .columnsContainer {
+        flex-direction: column;
+    }
+    
+    .columnsContainer > * {
+        max-width: 100%;
+    }
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .mainContent {
+        margin-left: 0;
+        padding: 1rem;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+}
+
+/* Estilos específicos para enlaces */
+.accessibleApp a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+    text-decoration: underline;
+}
+
+/* Estilos para elementos interactivos personalizados */
+.accessibleApp .select-trigger:focus,
+.accessibleApp .date-day:focus,
+.accessibleApp .date-nav:focus,
+.accessibleApp .tree-item:focus,
+.accessibleApp .tree-parent:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}
+
+
+.con-accesibilidad .select-value {
+    line-height: 25px;
+}

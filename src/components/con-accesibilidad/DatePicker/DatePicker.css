@@ -1,0 +1,94 @@
+/* DatePicker Styles */
+.date-picker {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.date-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    border-radius: 6px 6px 0 0;
+}
+
+.date-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.date-nav {
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    color: #007bff;
+}
+
+.date-nav:hover {
+    background-color: #e9ecef;
+}
+
+/* Focus indicators for accessibility */
+.date-nav:focus,
+.date-day:focus {
+    outline: 2px solid #007bff;
+    outline-offset: 2px;
+}
+
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.date-day-header {
+    text-align: center;
+    font-weight: bold;
+    padding: 8px 0;
+    color: #666;
+}
+
+.date-day {
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.date-day:hover:not(.other-month) {
+    background-color: #e9ecef;
+}
+
+.date-day.other-month {
+    color: #ccc;
+    cursor: default;
+}
+
+.date-day.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.date-day.today {
+    border: 1px solid #007bff;
+    font-weight: bold;
+}
+
+.date-picker.error {
+    border-color: #dc3545;
+}
+
+/* Selected date display */
+.selected-date {
+    margin-top: 10px;
+    font-weight: bold;
+}

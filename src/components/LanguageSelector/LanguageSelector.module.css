@@ -1,0 +1,32 @@
+.languageSelector {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  display: none;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: inherit;
+  font-weight: 500;
+}
+
+.select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.select:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.select:focus {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}

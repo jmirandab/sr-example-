@@ -1,0 +1,39 @@
+/* Estilos específicos para la versión con accesibilidad */
+
+/* Estilos de focus mejorados */
+.accessible-app *:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}
+
+/* Estilos específicos para elementos de formulario */
+.accessible-app input:focus, 
+.accessible-app select:focus, 
+.accessible-app textarea:focus, 
+.accessible-app button:focus,
+.accessible-app [role="button"]:focus,
+.accessible-app [tabindex]:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}
+
+/* Estilos específicos para enlaces */
+.accessible-app a:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+    text-decoration: underline;
+}
+
+/* Estilos para elementos interactivos personalizados */
+.accessible-app .select-trigger:focus,
+.accessible-app .date-day:focus,
+.accessible-app .date-nav:focus,
+.accessible-app .tree-item:focus,
+.accessible-app .tree-parent:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+    box-shadow: 0 0 0 4px white;
+}

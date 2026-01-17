@@ -1,0 +1,6 @@
+/* Estilos específicos para la versión sin accesibilidad */
+
+/* Eliminar outline de focus de todos los elementos */
+.non-accessible-app *:focus {
+    outline: none;
+}

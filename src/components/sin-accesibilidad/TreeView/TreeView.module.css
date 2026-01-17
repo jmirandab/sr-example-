@@ -1,0 +1,104 @@
+/* TreeView Styles */
+.treeView {
+    user-select: none;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e9ecef;
+}
+
+.treeGroup {
+    margin-bottom: 5px;
+}
+
+.groupHeader {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: bold;
+    color: #333;
+}
+
+.groupHeader:hover {
+    background-color: #dee2e6;
+}
+
+.groupIcon {
+    margin-right: 8px;
+    transition: transform 0.2s;
+    font-size: 0.8rem;
+}
+
+.groupIcon.expanded {
+    transform: rotate(90deg);
+}
+
+.treeLabel {
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.groupItems {
+    margin-left: 20px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    position: relative;
+}
+
+.groupItems.expanded {
+    max-height: 1000px; /* Arbitrary large value to allow animation */
+    transition: max-height 0.5s ease-in;
+}
+
+.treeItem {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+    margin-left: 1rem;
+}
+
+.treeItem:hover {
+    background-color: #e9ecef;
+}
+
+.treeItem.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.treeItem.selected .treeLabel {
+    color: white;
+}
+
+.treeConnector {
+    width: 20px;
+    height: 1px;
+    background-color: var(--border-color);
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.treeConnector::before {
+    content: '';
+    position: absolute;
+    left: -21px;
+    top: -10px;
+    width: 1px;
+    height: 21px;
+    background-color: var(--border-color);
+}
+
+.treeItem:last-child .treeConnector::before {
+    height: 11px;
+}

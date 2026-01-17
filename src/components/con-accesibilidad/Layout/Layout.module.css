@@ -1,0 +1,26 @@
+/* Layout Styles */
+.header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mainContent {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mainContentWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
