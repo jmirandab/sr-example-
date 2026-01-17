@@ -9,7 +9,8 @@ export const movies = [
             {
                 name: 'Paz León',
                 role: 'directora',
-                profilePicture: null
+                profilePicture: "/img/paz_leon.jpeg",
+                altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral."
             },
             {
                 name: 'Nerina Carmona',
@@ -28,7 +29,7 @@ export const movies = [
         title: 'Clara Sola',
         genre: 'Drama',
         image: '/img/clara_sola.jpeg',
-        description: 'La historia de una mujer que busca su independencia y autodescubrimiento en un entorno rural lleno de tradiciones. Un drama íntimo y poderoso sobre la liberación personal.',
+        description: 'Se cree que CLARA, de 40 años, tiene una conexión especial con Dios. Como "sanadora", sostiene a una familia y un pueblo necesitados de esperanza, mientras encuentra consuelo en su relación con la naturaleza. Después de años de ser controlada por el cuidado represivo de su madre, los deseos sexuales de Clara se ven avivados por su atracción hacia el nuevo novio de su sobrina. Esta nueva fuerza lleva a Clara a un territorio inexplorado, lo que le permite cruzar fronteras, tanto físicas como místicas. Fortalecida por su auto descubrimiento, Clara se libera gradualmente de su papel de “santa” y comienza a curarse a sí misma.',
         cast: [
             {
                 name: 'Nathalie Álvarez',
@@ -37,7 +38,7 @@ export const movies = [
             },
             {
                 name: 'Wendy Chinchilla',
-                role: 'actor',
+                role: 'actriz',
                 profilePicture: null
             },
             {
@@ -55,18 +56,18 @@ export const movies = [
         description: 'Una divertida comedia sobre un grupo de motociclistas que deben enfrentar desafíos inesperados en su aventura por las carreteras. Risas garantizadas en cada kilómetro.',
         cast: [
             {
-                name: 'Roberto Jiménez',
+                name: 'Ernesto Villalobos',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Luis Morales',
+                name: 'Arturo Pardo',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Patricia Vargas',
-                role: 'actor',
+                name: 'Daniela Mora',
+                role: 'actriz',
                 profilePicture: null
             }
         ]
@@ -79,17 +80,17 @@ export const movies = [
         description: 'Una comedia ligera y familiar sobre las aventuras de un grupo de amigos que deciden abrir una granja avícola. Momentos divertidos y situaciones inesperadas los esperan.',
         cast: [
             {
-                name: 'Sofía Herrera',
+                name: 'Ernesto Villalobos',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Miguel Torres',
+                name: 'Marvin Acosta',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Carmen Delgado',
+                name: 'Allan Cascante',
                 role: 'actor',
                 profilePicture: null
             }
@@ -103,19 +104,20 @@ export const movies = [
         description: 'Una épica aventura espacial que nos lleva a explorar nuevos mundos y civilizaciones. Una historia de supervivencia, descubrimiento y la búsqueda de un nuevo hogar para la humanidad.',
         cast: [
             {
-                name: 'Diego Ramírez',
+                name: 'Gustavo Cosenza',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Elena Castillo',
+                name: 'Melvin Jiménez',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Andrés Vega',
+                name: 'Carlos Miranda',
+                profilePicture: "/img/paz_leon.jpeg",
+                altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral.",
                 role: 'actor',
-                profilePicture: null
             }
         ]
     }

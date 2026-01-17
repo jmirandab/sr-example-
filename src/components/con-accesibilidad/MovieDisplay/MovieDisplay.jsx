@@ -45,11 +45,11 @@ const MovieDisplay = ({ appState }) => {
                         <ul className={styles.castList}>
                             {selectedMovie.cast.map((person, index) => (
                                 <li key={index} className={styles.castCard}>
-                                    <div className={styles.castPhoto}>
+                                    <div aria-hidden="true" className={styles.castPhoto}>
                                         {person.profilePicture ? (
                                             <img 
                                                 src={person.profilePicture} 
-                                                alt={`Foto de ${person.name}`}
+                                                alt={person.altText}
                                                 className={styles.profileImage}
                                             />
                                         ) : (

@@ -7,18 +7,19 @@ const baseMovies = [
         image: '/img/aqui_y_ahora.jpg',
         cast: [
             {
-                name: 'María González',
-                role: 'director',
+                name: 'Paz León',
+                role: 'directora',
+                profilePicture: "/img/paz_leon.jpeg",
+                altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral."
+            },
+            {
+                name: 'Nerina Carmona',
+                role: 'actriz',
                 profilePicture: null
             },
             {
-                name: 'Carlos Mendez',
-                role: 'actor',
-                profilePicture: null
-            },
-            {
-                name: 'Ana Rodríguez',
-                role: 'actor',
+                name: 'Eugenia Chaverri',
+                role: 'actriz',
                 profilePicture: null
             }
         ]
