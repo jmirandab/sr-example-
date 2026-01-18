@@ -66,10 +66,12 @@ const TreeView = ({ onSelectMovie, selectedMovieId: parentSelectedMovieId }) => 
                         </div>
                         <div 
                             className={`${styles.groupItems} ${isExpanded ? styles.expanded : ''}`}
+                            
                             id={genreId}
                         >
                             {peliculas[genre].map(movie => (
                                 <div 
+                                    aria-hidden={!isExpanded}
                                     key={movie.id} 
                                     className={`${styles.treeItem} ${selectedMovieId === movie.id ? styles.selected : ''}`}
                                     data-movie={movie.id}

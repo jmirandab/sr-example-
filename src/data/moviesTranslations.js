@@ -54,17 +54,17 @@ const baseMovies = [
         image: '/img/cascos_indomables.jpg',
         cast: [
             {
-                name: 'Roberto Jiménez',
+                name: 'Ernesto Villalobos',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Luis Morales',
+                name: 'Arturo Pardo',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Patricia Vargas',
+                name: 'Daniela Mora',
                 role: 'actor',
                 profilePicture: null
             }
@@ -77,17 +77,17 @@ const baseMovies = [
         image: '/img/por_las_plumas.jpg',
         cast: [
             {
-                name: 'Sofía Herrera',
+                name: 'Ernesto Villalobos',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Miguel Torres',
+                name: 'Marvin Acosta',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Carmen Delgado',
+                name: 'Allan Cascante',
                 role: 'actor',
                 profilePicture: null
             }
@@ -100,19 +100,20 @@ const baseMovies = [
         image: '/img/orbita_prima.jpg',
         cast: [
             {
-                name: 'Diego Ramírez',
+                name: 'Gustavo Cosenza',
                 role: 'director',
                 profilePicture: null
             },
             {
-                name: 'Elena Castillo',
+                name: 'Melvin Jiménez',
                 role: 'actor',
                 profilePicture: null
             },
             {
-                name: 'Andrés Vega',
+                name: 'Carlos Miranda',
                 role: 'actor',
-                profilePicture: null
+                profilePicture: "/img/paz_leon.jpeg",
+                altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral."
             }
         ]
     }
