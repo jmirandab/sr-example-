@@ -17,9 +17,6 @@ const LanguageSelector = () => {
         className={styles.select}
         aria-label={t('language.select')}
       >
-        <button>
-          <selectedcontent></selectedcontent>
-        </button>
         <option value="es">{t('language.spanish')}</option>
         <option value="en">{t('language.english')}</option>
       </select>

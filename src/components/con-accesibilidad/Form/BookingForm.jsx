@@ -88,7 +88,7 @@ const BookingForm = ({ appState }) => {
                 <input 
                     type="text" 
                     id="nombre" 
-                    autocomplete="name"
+                    autoComplete="name"
                     name="nombre"
                     className={`form-input ${errors.nombre ? 'error' : ''}`}
                     value={formData.nombre}
@@ -107,7 +107,7 @@ const BookingForm = ({ appState }) => {
                     type="password"
                     id="nuevoPassword"
                     name="nuevoPassword" 
-                    autocomplete="new-password"
+                    autoComplete="new-password"
                     className={`form-input ${errors.password ? 'error' : ''}`}
                     value={formData.nuevoPassword}
                     onChange={(e) => handleInputChange('nuevoPassword', e.target.value)}
@@ -136,7 +136,7 @@ const BookingForm = ({ appState }) => {
                     type="date" 
                     id="fecha" 
                     name="fecha"
-                    autocomplete="bday"
+                    autoComplete="bday"
                     className={`form-input ${errors.fecha ? 'error' : ''}`}
                     value={appState.selectedDate ? appState.selectedDate.toISOString().split('T')[0] : ''}
                     onChange={(e) => {

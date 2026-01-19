@@ -115,7 +115,7 @@ export const movies = [
             },
             {
                 name: 'Carlos Miranda',
-                profilePicture: "/img/paz_leon.jpeg",
+                profilePicture: "/img/carlos_miranda.jpeg",
                 altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral.",
                 role: 'Actor',
             }

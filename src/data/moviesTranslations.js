@@ -8,18 +8,18 @@ const baseMovies = [
         cast: [
             {
                 name: 'Paz León',
-                role: 'directora',
+                role: 'Directora',
                 profilePicture: "/img/paz_leon.jpeg",
                 altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral."
             },
             {
                 name: 'Nerina Carmona',
-                role: 'actriz',
+                role: 'Actriz',
                 profilePicture: null
             },
             {
                 name: 'Eugenia Chaverri',
-                role: 'actriz',
+                role: 'Actriz',
                 profilePicture: null
             }
         ]
@@ -32,17 +32,17 @@ const baseMovies = [
         cast: [
             {
                 name: 'Nathalie Álvarez',
-                role: 'director',
+                role: 'Director',
                 profilePicture: null
             },
             {
                 name: 'Wendy Chinchilla',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             },
             {
                 name: 'Daniel Castañeda',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             }
         ]
@@ -55,17 +55,17 @@ const baseMovies = [
         cast: [
             {
                 name: 'Ernesto Villalobos',
-                role: 'director',
+                role: 'Director',
                 profilePicture: null
             },
             {
                 name: 'Arturo Pardo',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             },
             {
                 name: 'Daniela Mora',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             }
         ]
@@ -78,17 +78,17 @@ const baseMovies = [
         cast: [
             {
                 name: 'Ernesto Villalobos',
-                role: 'director',
+                role: 'Director',
                 profilePicture: null
             },
             {
                 name: 'Marvin Acosta',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             },
             {
                 name: 'Allan Cascante',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             }
         ]
@@ -101,18 +101,18 @@ const baseMovies = [
         cast: [
             {
                 name: 'Gustavo Cosenza',
-                role: 'director',
+                role: 'Director',
                 profilePicture: null
             },
             {
                 name: 'Melvin Jiménez',
-                role: 'actor',
+                role: 'Actor',
                 profilePicture: null
             },
             {
                 name: 'Carlos Miranda',
-                role: 'actor',
-                profilePicture: "/img/paz_leon.jpeg",
+                role: 'Actor',
+                profilePicture: "/img/carlos_miranda.jpeg",
                 altText: "La fotografía muestra a una mujer adulta con expresión serena y profesional, mirando directamente a la cámara. Viste una blusa clara sin mangas y accesorios discretos, con el cabello suelto y peinado de forma natural. El fondo neutro y sobrio refuerza una imagen de confianza, liderazgo y rigor artístico, adecuada para presentar a una directora de cine en un contexto profesional y autoral."
             }
         ]

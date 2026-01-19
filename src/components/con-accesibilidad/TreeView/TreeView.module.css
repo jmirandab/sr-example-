@@ -66,6 +66,7 @@
     transition: background-color 0.2s;
     position: relative;
     margin-left: 1rem;
+    margin-right: 0.5rem;
 }
 
 .treeItem:hover {
